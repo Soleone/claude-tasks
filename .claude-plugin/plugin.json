@@ -1,0 +1,14 @@
+{
+  "name": "tasks",
+  "version": "0.1.0",
+  "description": "The project's tasks from the Tasks app in a pane: browse, edit, and hand one to Claude",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cli": {
+      "type": "string",
+      "title": "tasks-cli command",
+      "description": "Path to tasks-cli. On WSL a Windows path such as D:\\apps\\Tasks\\tasks-cli.exe works too. Empty: tasks-cli on PATH, or on WSL the tasks-cli.exe of the Windows Tasks install.",
+      "default": ""
+    }
+  }
+}
